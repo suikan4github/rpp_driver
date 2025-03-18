@@ -8,10 +8,10 @@ cmake_minimum_required(VERSION 3.14)
   set(CMAKE_CXX_EXTENSIONS OFF)
 
 
-# If the configuratopm target is Windows or Unix, this project
+# If the configuration target is Windows or Unix, this project
 # will be build as a test program of the rpp_driver. 
 
-# If the configuration target is not above, this porject 
+# If the configuration target is not above, this project 
 # will be build as a rpp_driver library. 
 
 if((${WIN32}) OR (${UNIX})) # Is Target Windows or Unix? 
