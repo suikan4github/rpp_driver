@@ -12,6 +12,18 @@ Hotfix release.
 ### Security
 ### Known Issue
 
+## [v1.2.0] 2026-07-12 
+Based on the Raspberry Pi Pico SDK v2.0.0. 
+### Added
+- [Issue #25](https://github.com/suikan4github/rpp_driver/issues/25) Add wider API support of RasPi Pico SDK
+- [Issue #27](https://github.com/suikan4github/rpp_driver/issues/27) Add Devcontainer support
+### Changed
+### Deprecated
+### Removed
+### Fixed
+### Security
+### Known Issue
+
 ## [v1.1.1] 2024-10-22
 Hotfix release. 
 
@@ -79,7 +91,8 @@ First official release of the rpp_driver ( Raspberry Pi Pico Driver) class libra
 ## [v0.9.0] 2024-09-28
 Pre-release version. 
 
-[Unreleased]: https://github.com/suikan4github/rpp_driver/compare/v1.1.1...develop
+[Unreleased]: https://github.com/suikan4github/rpp_driver/compare/v1.2.0...develop
+[v1.2.0]: https://github.com/suikan4github/rpp_driver/compare/v1.1.1...v1.2.0
 [v1.1.1]: https://github.com/suikan4github/rpp_driver/compare/v1.1.0...v1.1.1
 [v1.1.0]: https://github.com/suikan4github/rpp_driver/compare/v1.0.0...v1.1.0
 [v1.0.0]: https://github.com/suikan4github/rpp_driver/compare/v0.9.0...v1.0.0

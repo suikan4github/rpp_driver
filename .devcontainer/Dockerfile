@@ -22,6 +22,8 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
         git \
         ninja-build \
         valgrind \
+        gcc-arm-none-eabi libnewlib-arm-none-eabi \
+        doxygen graphviz \
     && rm -rf /var/lib/apt/lists/*
 
 # [Optional] Uncomment this section to install additional vcpkg ports.
