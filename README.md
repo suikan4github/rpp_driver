@@ -5,10 +5,10 @@ An online [HTML documentation](https://suikan4github.github.io/rpp_driver/) is a
 
 # Details
 This class collection ( or class library ) encapsules the certain data structure of Pico SDK behind the classes. And it also allows programmers to use the dependency-injection in their projects. So, programmers can test their code with [Google Test](https://github.com/google/googletest) before testing on the target hardware. 
-
+k
 The following classes are provided in this version. 
 
-| Class                           | Header file                | Description |
+| Class                           | Header fkvile                | Description |
 |---------------------------------|----                        |----------------------------- |
 | ::rpp_driver::SdkWrapper        | sdk/sdkwrapper.hpp         | Wrapper class of Pico SDK    |
 | ::rpp_driver::GpioBasic         | gpio/gpiobasic.hpp         | Basic GPIO controller        |
@@ -39,6 +39,9 @@ git clone --recursive https://github.com/suikan4github/rpp_driver-sample.git
 
 # Tools and building
 ## How to install the tools
+> [!NOTE]
+> These tools are automatically installed if you use the VSCode Dev Container. 
+
 To build the sample program and/or test program, you need to install the build tools. 
 The followings are the command to install these tools on Ubuntu.
 
